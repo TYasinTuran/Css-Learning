@@ -1,0 +1,18 @@
+
+ul.a{ list-style-type: circle; list-style-position: inside;}
+
+ul.b{ list-style-type: decimal;}
+
+ul.c{ list-style-type: none;}
+
+ol.d{ list-style-type: upper-roman;}
+
+ol.e{ list-style-type: lower-alpha;}
+
+table, td, th{ border: 1px solid black; text-align: left; padding: 15px;}
+
+table{ width: 100%; border-collapse: collapse;}
+
+th{height: 50px;}
+
+
