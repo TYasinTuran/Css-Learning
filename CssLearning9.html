@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CssLearning9.css">
+    <title>Display Properties</title>
+</head>
+<body>
+
+    <h1>Display Changing</h1>
+
+    <!-- block display was changed to inline display -->
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ul>
+
+    <h2>Display None</h2>
+<!-- display none -->
+    <ul>
+        <li id="a">e</li>
+        <li>f</li>
+        <li>g</li>
+        <li>h</li>
+    </ul>
+    
+
+    <div class="imagebox" id="imagebox1">
+        <p class="dot">Resim 1</p>
+        <img src="jpg/1.jpg">
+        <button onclick="RemoveElement()">Remove</button>
+
+    </div>
+
+    <div class="imagebox" id="imagebox2">
+        <p class="dot">Resim 2</p>
+        <img src="jpg/2.jpg">
+        <button onclick="HiddenElement()">Hidden</button>
+
+    </div>
+
+    <div class="imagebox" id="imagebox3">
+        <p class="dot">Resim 3</p>
+        <img src="jpg/3.jpg">
+        <button onclick="ResetElements()">Reset</button>
+
+    </div>
+
+
+    <script>
+
+       function RemoveElement () {
+        document.getElementById ("imagebox1").style.display="none";}
+
+        function HiddenElement() {
+
+            document.getElementById("imagebox2").style.visibility="hidden";
+        }
+
+        function ResetElements() {
+            document.getElementById ("imagebox1").style.display="inline";
+            document.getElementById("imagebox2").style.visibility="visible";
+
+        }
+
+
+
+    </script>
+    
+</body>
+</html>

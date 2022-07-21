@@ -1,0 +1,17 @@
+li{display: inline;}
+#a{display: none;}
+
+.dot{ border-bottom: 1px dotted blue;}
+
+button{ width: 100%;}
+
+.imagebox{ border: 1px solid black; 
+
+    width: 200px;
+    float: left;
+    padding: 15px;
+    margin: 20px;
+
+
+}
+
